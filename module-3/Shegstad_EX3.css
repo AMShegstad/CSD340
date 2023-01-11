@@ -1,0 +1,76 @@
+/* Set the HTML and body fonr size to 16px */
+HTML, BODY {
+    font-size: 16px;
+}
+
+p {
+    /* Give the paragraph text to a weight of 400 */
+    font-weight: 400;
+    /* Give the text in the paragraphs a line-height of 1.4em */
+    line-height: 1.4em;
+    /* Give the paragraphs a font stack of Quattrocentro, Georgia, "Timnes New Roman", serif */
+    font-family: Quattrocentro, Georgia, "Times New Roman", serif;
+}
+
+h1 {
+    /* make the h1 uppercase, add a font size of 3.052em, 0.5em word spacing, no margin,
+       and center the text */
+    text-transform: uppercase;
+    font-size: 3.052em;
+    word-spacing: 0.5em;
+    text-align: center;
+    margin: 0px;
+    /* Give the h1 a weight of 700 */
+    font-weight: 700;
+    /* Give the headings (h1, h2) a font stack that includes: Oswald, Verdana, Arial, sans-serif */
+    font-family: Oswald, Verdana, Arial, sans-serif;
+}
+
+h2 {
+    /* Give the n2 a fonr-size of 2.441em, 0.2em word spacing, no margin, align the text to the left, 
+       and a top padding of 15px */
+    font-size: 2.44em;
+    word-spacing: 0.2em;
+    margin: 0px;
+    text-align: left;
+    padding-top: 15px;
+    /* Give the h2 a weight of 500 */
+    font-weight: 500;
+    /* Give the headings (h1, h2) a font stack that includes: Oswald, Verdana, Arial, sans-serif */
+    font-family: Oswald, Verdana, Arial, sans-serif;
+}
+
+address {
+    /* Give the address a text alignment of center */
+    text-align: center;
+    /* Give the address a font stack that includes "Quattrocentro', Georiga, "Times New Roman, serif */
+    font-family: Quattrocentro, Georgia, "Times New Roman", serif;
+}
+
+.intro {
+    /* Give the CSS "intro" class a text-indent of 2em */ 
+    text-indent: 2em;
+}
+
+a {
+    /* Make the website URL bold with a font size of 1.25em, font color of #4f3674,
+       and remove the underline */
+    font-weight: bold;
+    font-size: 1.25em;
+    color: #4F3674;
+    text-decoration: none;
+}
+
+a:hover {
+    /* When a user hovers over the website link, apply an underline to the text and give it a 
+       background color of #D6A800 */
+    text-decoration: underline;
+    background-color: #D6A800;
+}
+
+a:visited {
+    /* For the pseudo class "visited", select a styling of your choosing */
+    text-decoration: line-through;
+    color: red;
+}
+
