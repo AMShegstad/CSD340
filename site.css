@@ -5,8 +5,9 @@
  Also do not forget to add a link for the Google fonts in the index.html page
 */
 
+
 BODY {
-    font-family: Oswald, Verdana, Arial, sans-serif;
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
 }
 
 #container {
@@ -14,23 +15,27 @@ BODY {
 }
 
 h1, h2, h3, h4 {
-    background-color: #3c275a;
+    background-color: #D13A36;
     color: #fff;
     border: 1px;
     border-color: #D6A800;
     padding: 10px;
 }
 
-a { 
+a {
+    font-weight: 700;
+}
+
+a:link { 
     text-decoration: none;
-    color: #453674
+    color: #D13A36;
 }
 
 a:hover {
     background-color: #D6A800;
-    color: #4F3674;
+    color: #D13A36;
 }
 
 a:visited {
-    color:#3C275A;
+    color:#c01a22;
 }
