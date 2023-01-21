@@ -4,21 +4,26 @@
  You will need to create a Google font kit for weights 300, 400, 500, and 700.
  Also do not forget to add a link for the Google fonts in the index.html page
 */
-
-
 BODY {
     font-family: 'Oswald', Verdana, Arial, sans-serif;
 }
-
-#container {
-    margin: 50px 100px 0px 100px;
+/*
+Set the top margin to 50px
+Set the left margin to 100px
+set the right margin to 100px
+*/
+.container {
+    margin: 50px 100px 0 100px;
 }
-
+/*
+Set the h1, h2, h3, and h4 tags to a background color of 3C275A, a fonr color of #fff,
+a border of 1px solid and #D6A800, and padding of 10px
+*/
 h1, h2, h3, h4 {
     background-color: #D13A36;
-    color: #fff;
-    border: 1px;
+    border: 1px solid;
     border-color: #D6A800;
+    color: #fff;
     padding: 10px;
 }
 
@@ -27,8 +32,8 @@ a {
 }
 
 a:link { 
-    text-decoration: none;
     color: #D13A36;
+    text-decoration: none;
 }
 
 a:hover {
