@@ -1,0 +1,61 @@
+.container {
+    text-align: center;
+}
+
+.left-child {
+    width: 45%;
+    float: left;
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    border: 1px solid;
+    border-color: red;
+    border-radius: 15px;
+    padding: 10px;
+    list-style-position: inside;
+    text-align: left;
+}
+
+.right-child {
+    border: 1px dashed;
+    border-color: red;
+    border-radius: 15px;
+    float: right;
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    text-align: left;
+    width: 45%;
+}
+
+.favorite_website {
+    margin-top: 60%;
+    width: 100%;
+    float: right;
+    margin-bottom: 20px;
+}
+
+.back_to_top {
+    float: right;
+}
+
+h1 {
+    font-family: 'Oswald', Verdana, Arial, sans-serif
+}
+
+h3 {
+    font-weight: 500;
+}
+
+ul, ol {
+    font-weight: 300;
+}
+
+ul {
+    list-style-type: upper-roman;
+}
+
+a {
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
