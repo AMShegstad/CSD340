@@ -1,0 +1,64 @@
+body {
+    background-color: rgba(247, 112, 24, 0.20);
+}
+
+h1 {
+    text-align: center;
+}
+
+img {
+    width: 350px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+}
+
+#image-gallery {
+    /* Give the image-gallery div a margin-top of 10%*/
+    margin-top: 10%;
+    margin-bottom: 2%;
+}
+
+.grid-container {
+    /* Making the grid-container a grid element*/
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 0;
+}
+
+.grid-item {
+    padding: 5px;
+    border: 5px solid;
+    border-color: rgb(185, 63, 8);
+    border-radius: 5px;
+    justify-content: space-evenly;
+}
+
+h1 {
+    font-size: 36pt;
+}
+
+h3 {
+    text-align: center;
+    font-size: 24pt;
+}
+
+h1, h3, figure {
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    font-weight: 400;
+    color: rgb(185, 63, 8);
+    border-radius: 15px;
+}
+
+figcaption {
+    font-style: italic;
+    font-size: .75em;
+    text-align: center;
+}
+
+a {
+    margin-top: 20px;
+    text-align: center;
+}
