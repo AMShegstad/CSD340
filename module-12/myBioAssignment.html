@@ -1,0 +1,129 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="myBioAssignment.css" type="text/css" rel="stylesheet">
+    <title> MY BIO </title>
+</head>
+<body>
+    <div id="Header">
+        <div id="header1">
+            <h1> Alexander M. Shegstad, <br> Aspiring Software Developer <br> at Bellevue University </h1>
+
+        </div>
+        <div id="header2">
+            <p> A lifelong enjoyer of all things tech, I started coding simply out of curiosity about how my favorite video games
+                were made. Since then, I've had my own bit of fun with c++ in the past few years, and now am working towards my 
+                bachelor's degree in Software Development. I also plan to attend a 24 week wev development bootcamp at the University of Minnesota
+                after graduation, in order to dive head first into some of the popular libraries and tools that are popular in today's
+                professional settings.
+            </p>
+        </div>
+        <div id="header3">
+            <P>
+                I've worked for Target for more than sixteen years at the time of writing, and it is through their partnership with 
+                Guild Education that I am going to school debt-free. While I am excited to gain my education and move to a new career
+                and lifelong learning experience, I would very much like to stay with my company. Having been a user of the company's 
+                internally developed software for many years, I'd like to bring my first-hand experience in multiple areas of operation
+                at the store level to bring improvements to those tools.
+            </P>
+        </div>
+
+    </div>
+
+    <hr>
+    
+    <div id="Columns">
+        <div id="container">
+            <h1> Hobbies</h1>
+        </div>
+        <!-- Apply a CSS grid with three columns for the 3 side-by-side divs -->
+        <div id="image-gallery" class="grid-container">
+            <div class="grid-item">
+                <h3> Guitar </h3>
+                <figure>
+                    <img src="Pictures/guitar.jpg" class="endersGame" alt="Ender's Game Book Cover Art"/>
+                    <br/>
+                    <figcaption> I've been playing the guitar for more than twenty years now! </figcaption>
+                </figure>
+            </div>
+
+            <div class="grid-item">
+                <h3> Video Games! </h3>
+                <figure>
+                    <img src="Pictures/videoGames.jpg" class="leviathanwakes" alt="Leviathan Wakes Book Cover Art"/>
+                    <br/>
+                    <figcaption> Going to be playing Hogwarts Legacy during week off. </figcaption>
+                </figure>
+            </div>
+
+            <div class="grid-item">
+                <h3> Listening to Audiobooks </h3>
+                <figure>
+                    <img src="Pictures/audioBooks.jpg" class="readyPlayerOne" alt="Ready Player One Book Cover Art"/>
+                    <br/>
+                    <figcaption> Currently enjoying Armada, by Ernest Cline </figcaption>
+                </figure>
+            </div>
+        </div>
+
+        <div id="container">
+            <h1> Work / Experience / Goals</h1>
+        </div>
+
+        <div id="image-gallery" class="grid-container">
+            <div class="grid-item">
+                <h3> Target </h3>
+                <figure>
+                    <img src="Pictures/targetStore.jpg" class="targetStore" alt="Target Store"/>
+                    <br/>
+                    <figcaption> Now a Service & Engagement Team Leader, I am a 16+ year veteran of Target stores </figcaption>
+                </figure>
+            </div>
+
+            <div class="grid-item">
+                <h3> It is the only company I've ever worked for... </h3>
+                <figure>
+                    <img src="Pictures/targetLogo.jpg" class="targetLogo" alt="Target Logo"/>
+                    <br/>
+                    <figcaption> and hope to continue in a corporate setting after graduation. </figcaption>
+                </figure>
+            </div>
+
+            <div class="grid-item">
+                <h3> Target's Exceptional Engineers Program </h3>
+                <figure>
+                    <img src="Pictures/programming.png" class="programming" alt="Programming"/>
+                    <br/>
+                    <figcaption> gives training and employment opportunities to select team members after they graduate with IT degrees or from coding bootcamps. </figcaption>
+                </figure>
+            </div>
+        </div>
+
+        <div id="contact">
+            <div class="grid-item">
+                <fieldset>
+                    <legend> Contact Me!</legend>
+                    
+                        <label> First Name: <br /> <input type="text" name="firstName" /> </label> <br />
+                        <label> Last Name: <br /> <input type="text" name="lastName" /> </label> <br />
+                        <label> Email Address: <br /> <input type="email" name="email"/> </label> <br />
+                        <form action="mailto:contact@yourdomain.com" method="POST" enctype="text/plain">
+                            Message:<br>
+                            <textarea name="VisitorComment" rows="6" cols="25"></textarea><br><br>
+                            <input type="submit" value="Submit Message">
+                          </form>
+                </fieldset>
+            </div>
+        </div>
+
+
+    </div>
+   
+    <a href="https://amshegstad.github.io/CSD340/" id="landingPage">Back to the Landing Page...</a>
+ 
+</body>
+</html>
